@@ -15,8 +15,7 @@ phases:
   post_build:
     commands:
       - echo post-builds
-      
-artifacts:
-  files:
-    - template.yaml
-    name: upbCodepipelin
+  artifacts:
+    files:
+      - template.yaml
+      name: upbCodepipelin
