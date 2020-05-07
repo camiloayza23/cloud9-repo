@@ -14,7 +14,7 @@ phases:
         - ./deploy.sh -b
     post_build:
         commands:
-        - echo post-build4
+        - echo post-build5
 
 artifacts:
     files:
